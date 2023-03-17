@@ -32,6 +32,8 @@ The first note will be time zero and all the other notes will have their time de
 ## images
 
 ![](images/draw.png)
+
+![](images/login.png)   ![](images/register.png)
 ## advantages
 
 - more secure
