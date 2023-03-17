@@ -68,10 +68,10 @@ public class awt_login extends Frame implements KeyListener, ActionListener, Run
         reset = new Button("reset");
         reset_pass = new Button("reset pass");
 
-        name_label.setBounds(0,80,90,20);
-        pass_label.setBounds(0,120,90,20);
-        name.setBounds (100,80,90,20);
-        pass.setBounds (100,120,90,20);
+        name_label.setBounds(20,80,90,20);
+        pass_label.setBounds(20,120,90,20);
+        name.setBounds (120,80,90,20);
+        pass.setBounds (120,120,90,20);
         enter.setBounds(20,250,40,20);
         reset.setBounds(70,250,40,20);
         reset_pass.setBounds(120,250,80,20);
@@ -323,9 +323,9 @@ public class awt_login extends Frame implements KeyListener, ActionListener, Run
             login_flag = false;
             pass.setText("");
             sec_pass_label = new Label("repeat password", Label.CENTER);
-            sec_pass_label.setBounds(0,160,90,20);
+            sec_pass_label.setBounds(20,160,100,20);
             sec_pass = new TextField();
-            sec_pass.setBounds(100,160,90,20);
+            sec_pass.setBounds(125,160,90,20);
             sec_pass.addKeyListener(this);
             enter.setBounds(20,300,40,20);
             reset.setBounds(70,300,40,20);
